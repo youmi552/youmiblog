@@ -1,0 +1,18 @@
+[viewer]
+    Title = "悠米的Go语言博客"
+    Description = "悠米的Go语言博客"
+    Logo = "https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fmobile.pic.people.com.cn%2Fthumbs%2F320%2F320%2Fdata%2Fcms%2FNMediaFile%2F2019%2F0506%2FWIRELESS201905060832000349355334656.jpg&refer=http%3A%2F%2Fmobile.pic.people.com.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1661501391&t=8b48daf2a8f3bdcf2fe4bd499e2cb7bf"
+    Navigation = ["首页","/", "学习GO语言","https://github.com/astaxie/build-web-application-with-golang/blob/master/zh/preface.md", "归档","/pigeonhole", "关于","/p/1"]
+    Bilibili = "https://space.bilibili.com/1380297575"
+    Zhihu = "https://www.zhihu.com/people/86-84-8-15"
+    Avatar = "https://5706a5m231.zicp.fun/resource/images/favicon.png"
+    UserName = "悠米"
+    UserDesc = "即将进入大四的菜鸟go语言开发者"
+[system]
+    CdnURL = "https://static.mszlu.com/goblog/es6/md-assets"
+    QiniuAccessKey = "替换自己的"
+    QiniuSecretKey = "替换自己的"
+    Valine = true
+    ValineAppid = "kqIJKVUcwLJPjSWr5A9Wba70-gzGzoHsz"
+    ValineAppkey = "Q6eiBEKHs8IWNxEFaw9EuUDI"
+    ValineServerURL = "https://kqijkvuc.lc-cn-n1-shared.com"

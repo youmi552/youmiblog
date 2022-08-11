@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+</head>
+<body>
+{{range $index, $elem := .Posts}}
+<h2>{{$elem.Title}}</h2></a>
+    <p>{{$elem.Content}}</p>
+    <div >
+      <span>
+        <i ></i>
+        &nbsp; {{$elem.UserName}}
+      </span>
+        <span>
+        <i ></i>
+            {{range $index, $elem := .Category}}
+        &nbsp;<a href="/c/{{$elem.Cid}}">{{$elem.Name}}</a>
+            {{end}}
+      </span>
+        <span>
+        <i ></i>
+        &nbsp;{{$elem.CreatedAt}}
+      </span>
+        <span>
+        <i ></i>
+        &nbsp;{{$elem.ViewCount}}
+      </span>
+    </div>
+</li>
+{{end}}
+</ul>
+</body>
+</html>
